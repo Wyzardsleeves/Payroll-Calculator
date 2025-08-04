@@ -1,0 +1,19 @@
+{
+  "name": "ebacon-test",
+  "version": "1.0.0",
+  "description": "Test for eBacon",
+  "main": "index.js",
+  "author": "Justin Lattimore",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node ./index.js",
+    "start-dev": "nodemon ./index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "moment": "^2.30.1"
+  }
+}
