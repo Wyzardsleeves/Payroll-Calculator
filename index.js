@@ -42,7 +42,7 @@ const employeeData = data.employeeData;
 //Sump up the time
 const sumUpPayroll = (employeeData) => {
   const dataSheet = [];
-  
+
   employeeData.map(employee => {
     const timeLog = {
       employee: employee.employee,
@@ -94,4 +94,4 @@ const sumUpPayroll = (employeeData) => {
   console.log(JSON.stringify(dataSheet, null, 2))
 }
 
-return(sumUpPayroll(employeeData))
+sumUpPayroll(employeeData)
