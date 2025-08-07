@@ -29,6 +29,3 @@ $ yarn start-dev
 - I started from the "Math" and worked my way outwards from there.
   - I iterated throught he punches for Mike first.
   - After I got that to work I then iterated through the other Employees.
-- I made the output an Array.
-  - When it was just an Object it would be an [object Object].
-  - I probably could have invested time into correcting that but I imagined that it probably wasn't the important part of the assignment.
