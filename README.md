@@ -24,7 +24,7 @@ $ yarn start-dev
   - The instructions mentioned that I can "reformat the meta data as needed" so I turned the jsonc into a json.
   - I could have installed one of the jsonc packages that I found for npm but it seemed simpler to separate the instructions from the data and make it a json.
   - In production I would have used whatever methods an procedures that I saw being employed in the codebase already.
-- I decided to make the caclculator modular and take in an array to map through rather than hard coding the employees by name in case you guys gave browny points for that.
+- I decided to make the caclculator modular and take in an array to map through rather than hard coding the employees by name in case you guys gave points for that.
 - Used [Moment](https://www.npmjs.com/package/moment) to get the difference between the start and end timestamps on the shifts.
 - I started from the "Math" and worked my way outwards from there.
   - I iterated throught he punches for Mike first.
