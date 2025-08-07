@@ -59,8 +59,8 @@ const sumUpPayroll = (employeeData) => {
 
     employee.timePunch.map(punch => {
       const time = getShiftHours(punch, timeLog)
-      const {rate, benefitsRate} = time.jobCalc; //consolidate these two
-      const {work_duration} = time; // this one also
+      const {rate, benefitsRate} = time.jobCalc; 
+      const {work_duration} = time; 
 
       timeLog.currentTotal += work_duration;
       timeLog.benefitTotal += (benefitsRate * work_duration)
@@ -73,7 +73,6 @@ const sumUpPayroll = (employeeData) => {
         timeLog.overtotal = timeLog.currentTotal - regularMax;
         timeLog.wageTotal += getWorkWithMultiplier(work_duration, timeLog, rate)
       } else {
-        timeLog.regularTotal = regularMax;
         timeLog.overtotal = overTimeMax;
         timeLog.doubleTotal = timeLog.currentTotal - regularMax - overTimeMax;
         timeLog.wageTotal += getWorkWithMultiplier(work_duration, timeLog, rate)
